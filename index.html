@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hero Bike Dealer Bishunpur | Near Dewa UP | Book Service & Buy Bikes</title>
+  <meta name="description"
+    content="Bishunpur Auto Sale and Service — Authorized Hero MotoCorp Dealer near Dewa, Barabanki, Uttar Pradesh. Buy Hero bikes & scooters, book service appointments, explore EMI options.">
+  <meta name="keywords"
+    content="Hero MotoCorp, Bishunpur, Dewa, Barabanki, UP, Hero bikes, Hero scooters, Hero service, Hero dealer, Bishunpur Auto Sale">
+  <meta name="author" content="Bishunpur Auto Sale and Service">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ====== SECTION 1: SPLASH SCREEN ====== -->
+  <div id="splash-screen" class="splash">
+    <div class="splash-content">
+      <img src="https://www.heromotocorp.com/content/dam/hero-aem-website/brand/logo/logo.svg" alt="Hero MotoCorp Logo"
+        class="hero-logo-splash">
+      <h1 class="splash-title">Bishunpur Auto Sale and Service</h1>
+      <p class="splash-subtitle">Authorized Hero MotoCorp Dealer</p>
+      <p class="splash-tagline">Your Trusted Hero Partner in Dewa Region, Uttar Pradesh</p>
+      <div class="splash-loader"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+
+  <!-- ====== SECTION 2: NAVIGATION BAR ====== -->
+  <header id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <img src="https://www.heromotocorp.com/content/dam/hero-aem-website/brand/logo/logo.svg" alt="Hero MotoCorp"
+          class="nav-logo-svg">
+      </a>
+      <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="nav-links" class="nav-links">
+        <a href="#home" class="nav-link">Home</a>
+        <div class="nav-dropdown">
+          <a href="#bikes" class="nav-link dropdown-trigger">Bikes <span class="arrow">▾</span></a>
+          <div class="dropdown-menu">
+            <a href="#bikes" data-tab="motorcycles">Motorcycles</a>
+            <a href="#bikes" data-tab="scooters">Scooters</a>
+          </div>
+        </div>
+        <div class="nav-dropdown">
+          <a href="#service" class="nav-link dropdown-trigger">Service <span class="arrow">▾</span></a>
+          <div class="dropdown-menu">
+            <a href="#service">Book Appointment</a>
+            <a href="#service-packages">Service Packages</a>
+            <a href="#service-packages">AMC</a>
+          </div>
+        </div>
+        <a href="#emi" class="nav-link">EMI &amp; Finance</a>
+        <a href="#contact" class="nav-link">Contact Us</a>
+        <a href="#contact" class="nav-link">Find Us</a>
+      </nav>
+      <a href="#service" class="nav-cta">Book Service Now</a>
+    </div>
+  </header>
+
+  <!-- ====== MAIN CONTENT ====== -->
+  <main id="main-content" class="main-content">
+
+    <!-- ====== SECTION 3: HERO BANNER SLIDER ====== -->
+    <section id="home" class="hero-slider">
+      <div class="slider-wrapper">
+        <div class="slides">
+          <!-- Slide 1: Splendor+ -->
+          <div class="slide active">
+            <div class="slide-bg" style="background: linear-gradient(160deg, #e8e8e8 0%, #f5f5f5 40%, #ddd 100%);"></div>
+            <div class="slide-inner">
+              <div class="slide-image-area">
+                <img src="https://www.heromotocorp.com/content/dam/hero-commerce/in/en/products/practical/splendor-plus/HSPUMDRSCFIBBK/360/1.png" alt="Hero Splendor+" class="slide-bike-img">
+              </div>
+              <div class="slide-content">
+                <span class="slide-badge">Featured</span>
+                <h2 class="slide-title dark">Hero Splendor+</h2>
+                <p class="slide-tagline">INDIA'S MOST TRUSTED MOTORCYCLE.<br>UNMATCHED MILEAGE, UNBEATABLE RELIABILITY.</p>
+                <a href="#bikes" class="btn btn-primary">Explore Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2: Showroom -->
+          <div class="slide">
+            <div class="slide-bg">
+              <img src="assets/gallery/showroom-front.jpg" alt="Bishunpur Auto Sale and Service Showroom" class="slide-bg-photo">
+              <div class="slide-bg-overlay dark-overlay"></div>
+            </div>
+            <div class="slide-inner">
+              <div class="slide-content">
+                <span class="slide-badge">Visit Us</span>
+                <h2 class="slide-title">Bishunpur Auto Sale and Service</h2>
+                <p class="slide-tagline light">YOUR TRUSTED HERO PARTNER IN DEWA REGION.<br>EXPERIENCE OUR SHOWROOM TODAY.</p>
+                <a href="https://maps.app.goo.gl/8ZHy1aCmnUE2HFXz9" class="btn btn-white" target="_blank">Get Directions</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3: Service Offer -->
+          <div class="slide">
+            <div class="slide-bg">
+              <img src="assets/gallery/showroom-bikes.jpg" alt="Hero Bikes at Bishunpur" class="slide-bg-photo">
+              <div class="slide-bg-overlay red-overlay"></div>
+            </div>
+            <div class="slide-inner">
+              <div class="slide-content">
+                <span class="slide-badge white-badge">Special Offer</span>
+                <h2 class="slide-title">Free 1st Service!</h2>
+                <p class="slide-tagline light">BUY ANY NEW HERO BIKE AND GET YOUR FIRST SERVICE<br>ABSOLUTELY FREE AT OUR BISHUNPUR CENTER.</p>
+                <a href="#service" class="btn btn-white">Book Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4: EMI -->
+          <div class="slide">
+            <div class="slide-bg">
+              <img src="assets/gallery/showroom-inauguration.jpg" alt="Bishunpur Auto Sale and Service" class="slide-bg-photo">
+              <div class="slide-bg-overlay dark-overlay"></div>
+            </div>
+            <div class="slide-inner">
+              <div class="slide-content">
+                <span class="slide-badge">Easy EMI</span>
+                <h2 class="slide-title">Own Your Hero at Just ₹1,999/month</h2>
+                <p class="slide-tagline light">FLEXIBLE FINANCE OPTIONS WITH INSTANT APPROVAL.<br>RIDE HOME YOUR DREAM BIKE TODAY.</p>
+                <a href="#emi" class="btn btn-primary">Calculate EMI</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <button class="slider-btn slider-prev" aria-label="Previous slide">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 19l-7-7 7-7"/></svg>
+        </button>
+        <button class="slider-btn slider-next" aria-label="Next slide">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+
+        <!-- Bottom Bar: Thumbnails + Counter -->
+        <div class="slider-bottom">
+          <div class="slider-thumbs">
+            <div class="thumb active" data-slide="0">
+              <img src="https://www.heromotocorp.com/content/dam/hero-commerce/in/en/products/practical/splendor-plus/HSPUMDRSCFIBBK/360/1.png" alt="Splendor+">
+            </div>
+            <div class="thumb" data-slide="1">
+              <img src="assets/gallery/showroom-front.jpg" alt="Our Showroom">
+            </div>
+            <div class="thumb" data-slide="2">
+              <img src="assets/gallery/showroom-bikes.jpg" alt="Special Offer">
+            </div>
+            <div class="thumb" data-slide="3">
+              <img src="assets/gallery/showroom-inauguration.jpg" alt="EMI Options">
+            </div>
+          </div>
+          <div class="slider-counter"><span id="slide-current">1</span>/<span id="slide-total">4</span></div>
+        </div>
+
+        <!-- Red Accent Stripe -->
+        <div class="slider-stripe"></div>
+      </div>
+    </section>
+
+    <!-- ====== SECTION 4: BIKES FOR SALE ====== -->
+    <section id="bikes" class="section bikes-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Our Collection</span>
+          <h2 class="section-title">Bikes and Scooters</h2>
+          <p class="section-desc">Explore the complete range of Hero MotoCorp vehicles. Best on-road prices in Bishunpur
+            & Dewa region.</p>
+        </div>
+        <div class="bike-tabs">
+          <button class="tab-btn active" data-tab="motorcycles">Motorcycles</button>
+          <button class="tab-btn" data-tab="scooters">Scooters</button>
+        </div>
+        <div class="bike-compare-bar" id="compare-bar" style="display:none;">
+          <span id="compare-count">0</span> bike(s) selected
+          <button class="btn btn-primary btn-sm" id="compare-btn" onclick="openCompareModal()">Compare Now</button>
+          <button class="btn btn-outline btn-sm" onclick="clearCompare()">Clear</button>
+        </div>
+        <div id="bike-grid-motorcycles" class="bike-grid active">
+          <!-- Motorcycles cards injected by JS -->
+        </div>
+        <div id="bike-grid-scooters" class="bike-grid">
+          <!-- Scooter cards injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Compare Modal -->
+    <div id="compare-modal" class="modal">
+      <div class="modal-content modal-lg">
+        <button class="modal-close" onclick="closeCompareModal()">&times;</button>
+        <h3>Compare Bikes</h3>
+        <div id="compare-table-container"></div>
+      </div>
+    </div>
+
+    <!-- Test Ride / Get Price Modal -->
+    <div id="inquiry-modal" class="modal">
+      <div class="modal-content">
+        <button class="modal-close" onclick="closeInquiryModal()">&times;</button>
+        <h3 id="inquiry-modal-title">Book Test Ride</h3>
+        <form id="inquiry-form" onsubmit="submitInquiry(event)">
+          <input type="hidden" id="inquiry-bike" name="bike">
+          <input type="hidden" id="inquiry-type" name="type">
+          <div class="form-group">
+            <label for="inq-name">Full Name *</label>
+            <input type="text" id="inq-name" required placeholder="Your Name">
+          </div>
+          <div class="form-group">
+            <label for="inq-phone">Mobile Number *</label>
+            <input type="tel" id="inq-phone" required pattern="[0-9]{10}" placeholder="10-digit number">
+          </div>
+          <div class="form-group">
+            <label for="inq-email">Email (optional)</label>
+            <input type="email" id="inq-email" placeholder="your@email.com">
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        </form>
+        <div id="inquiry-success" class="success-msg" style="display:none;">
+          ✅ Thank you! Our team will contact you shortly.
+        </div>
+      </div>
+    </div>
+
+    <!-- ====== SECTION 5: BOOK SERVICE ====== -->
+    <section id="service" class="section service-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Expert Care</span>
+          <h2 class="section-title">Book Service Appointment</h2>
+          <p class="section-desc">Keep your Hero running perfectly. Book a service at our authorized center.</p>
+        </div>
+        <div class="service-grid">
+          <div class="service-form-card">
+            <form id="service-form" onsubmit="submitServiceForm(event)">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="svc-name">Customer Full Name *</label>
+                  <input type="text" id="svc-name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                  <label for="svc-phone">Mobile Number *</label>
+                  <input type="tel" id="svc-phone" required pattern="[0-9]{10}" placeholder="10-digit number">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="svc-email">Email Address</label>
+                  <input type="email" id="svc-email" placeholder="your@email.com">
+                </div>
+                <div class="form-group">
+                  <label for="svc-bike">Bike Model *</label>
+                  <select id="svc-bike" required>
+                    <option value="">Select your bike</option>
+                    <option>HF 100</option>
+                    <option>Splendor+</option>
+                    <option>Splendor+ XTEC</option>
+                    <option>HF Deluxe</option>
+                    <option>Passion+</option>
+                    <option>Glamour</option>
+                    <option>Glamour X</option>
+                    <option>Super Splendor XTEC</option>
+                    <option>Xtreme 125R</option>
+                    <option>Xtreme 160R</option>
+                    <option>Xtreme 160R 4V</option>
+                    <option>Xpulse 200 4V</option>
+                    <option>Karizma XMR</option>
+                    <option>Mavrick 440</option>
+                    <option>Pleasure+ XTEC</option>
+                    <option>Xoom 110</option>
+                    <option>Destini 110</option>
+                    <option>New Destini 125</option>
+                    <option>Xoom 125</option>
+                    <option>Destini Prime</option>
+                    <option>Xoom 160</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="svc-reg">Registration Number</label>
+                  <input type="text" id="svc-reg" placeholder="UP XX AB XXXX">
+                </div>
+                <div class="form-group">
+                  <label for="svc-type">Service Type *</label>
+                  <select id="svc-type" required>
+                    <option value="">Select service type</option>
+                    <option>General Service</option>
+                    <option>Oil Change</option>
+                    <option>Tyre Replacement</option>
+                    <option>Battery Replacement</option>
+                    <option>Engine Repair</option>
+                    <option>Accidental Repair</option>
+                    <option>Free First Service</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="svc-date">Preferred Date *</label>
+                  <input type="date" id="svc-date" required>
+                </div>
+                <div class="form-group">
+                  <label for="svc-time">Preferred Time Slot *</label>
+                  <select id="svc-time" required>
+                    <option value="">Select time slot</option>
+                    <option>Morning 9–12</option>
+                    <option>Afternoon 12–3</option>
+                    <option>Evening 3–6</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="svc-notes">Additional Notes</label>
+                <textarea id="svc-notes" rows="3" placeholder="Any specific issues or requests..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">Book Appointment</button>
+            </form>
+            <div id="service-success" class="success-msg" style="display:none;">
+              Your service appointment has been booked! Our team will contact you shortly.
+            </div>
+          </div>
+        </div>
+
+        <!-- Service Packages -->
+        <div id="service-packages" class="service-packages">
+          <h3 class="sub-title">Service Packages</h3>
+          <div class="packages-grid">
+            <div class="package-card">
+              <div class="package-badge">Basic</div>
+              <div class="package-price">₹499</div>
+              <ul>
+                <li>✔ Oil level check</li>
+                <li>✔ Exterior cleaning</li>
+                <li>✔ Air filter check</li>
+                <li>✔ Chain adjustment</li>
+              </ul>
+              <a href="#service" class="btn btn-outline btn-block">Book Now</a>
+            </div>
+            <div class="package-card featured">
+              <div class="package-badge">Standard</div>
+              <div class="package-price">₹999</div>
+              <ul>
+                <li>✔ Oil change</li>
+                <li>✔ Brake check & adjust</li>
+                <li>✔ Chain lubrication</li>
+                <li>✔ All basic checks</li>
+                <li>✔ Spark plug check</li>
+              </ul>
+              <a href="#service" class="btn btn-primary btn-block">Book Now</a>
+            </div>
+            <div class="package-card">
+              <div class="package-badge">Comprehensive</div>
+              <div class="package-price">₹1,799</div>
+              <ul>
+                <li>✔ Full engine check</li>
+                <li>✔ All fluids replaced</li>
+                <li>✔ Tyre pressure set</li>
+                <li>✔ Electrical check</li>
+                <li>✔ All standard checks</li>
+              </ul>
+              <a href="#service" class="btn btn-outline btn-block">Book Now</a>
+            </div>
+            <div class="package-card amc">
+              <div class="package-badge">AMC</div>
+              <div class="package-price">₹2,999<span>/year</span></div>
+              <ul>
+                <li>✔ 4 comprehensive services</li>
+                <li>✔ Priority scheduling</li>
+                <li>✔ 10% off spare parts</li>
+                <li>✔ Free pickup & drop</li>
+                <li>✔ Annual health report</li>
+              </ul>
+              <a href="#service" class="btn btn-primary btn-block">Subscribe</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SECTION 6: EMI & FINANCE ====== -->
+    <section id="emi" class="section emi-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Easy Finance</span>
+          <h2 class="section-title">EMI & Finance Options</h2>
+          <p class="section-desc">Ride home your dream Hero today with hassle-free financing.</p>
+        </div>
+        <div class="emi-grid">
+          <div class="emi-calculator-card">
+            <h3>EMI Calculator</h3>
+            <div class="form-group">
+              <label for="emi-price">Bike On-Road Price (₹)</label>
+              <input type="number" id="emi-price" value="80000" min="50000" max="300000" step="1000">
+            </div>
+            <div class="form-group">
+              <label for="emi-down">Down Payment (₹)</label>
+              <input type="number" id="emi-down" value="15000" min="0" step="1000">
+            </div>
+            <div class="form-group">
+              <label for="emi-tenure">Tenure (months)</label>
+              <select id="emi-tenure">
+                <option value="12">12 months</option>
+                <option value="18">18 months</option>
+                <option value="24" selected>24 months</option>
+                <option value="36">36 months</option>
+                <option value="48">48 months</option>
+              </select>
+            </div>
+            <button class="btn btn-primary btn-block" onclick="calculateEMI()">Calculate EMI</button>
+            <div id="emi-result" class="emi-result">
+              <div class="emi-amount">₹<span id="emi-monthly">0</span>/month</div>
+              <div class="emi-details">
+                <p>Loan Amount: ₹<span id="emi-loan">0</span></p>
+                <p>Total Payable: ₹<span id="emi-total">0</span></p>
+                <p>Interest Rate: 9.5% p.a.</p>
+              </div>
+            </div>
+          </div>
+          <div class="emi-info-card">
+            <h3>Finance Partners</h3>
+            <div class="finance-logos">
+              <div class="finance-logo">
+                <div class="logo-placeholder hdfc">HDFC Bank</div>
+              </div>
+              <div class="finance-logo">
+                <div class="logo-placeholder sbi">SBI</div>
+              </div>
+              <div class="finance-logo">
+                <div class="logo-placeholder bajaj">Bajaj Finance</div>
+              </div>
+              <div class="finance-logo">
+                <div class="logo-placeholder hero-fin">Hero FinCorp</div>
+              </div>
+            </div>
+            <div class="finance-features">
+              <div class="finance-feature">
+                <span class="feature-icon"></span>
+                <div>
+                  <strong>Instant Approval</strong>
+                  <p>Get loan approval within 24 hours</p>
+                </div>
+              </div>
+              <div class="finance-feature">
+                <span class="feature-icon"></span>
+                <div>
+                  <strong>Minimal Documents</strong>
+                  <p>Just Aadhaar, PAN & income proof</p>
+                </div>
+              </div>
+              <div class="finance-feature">
+                <span class="feature-icon"></span>
+                <div>
+                  <strong>Low Interest</strong>
+                  <p>Starting from 9.5% p.a.</p>
+                </div>
+              </div>
+            </div>
+            <a href="#contact" class="btn btn-primary btn-block">Apply for Loan — Get Approval in 24 Hours</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SECTION 7: OFFERS & BENEFITS ====== -->
+    <section id="offers" class="section offers-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Exclusive Deals</span>
+          <h2 class="section-title">Offers & Benefits</h2>
+          <p class="section-desc">Take advantage of amazing deals at Bishunpur Auto Sale and Service!</p>
+        </div>
+        <div class="offers-grid">
+          <div class="offer-card">
+            <div class="offer-icon"></div>
+            <h4>Exchange Bonus</h4>
+            <p>Get up to ₹8,000 bonus when you exchange your old bike for a new Hero.</p>
+            <span class="offer-tag">Limited Time</span>
+          </div>
+          <div class="offer-card">
+            <div class="offer-icon"></div>
+            <h4>Festival Discounts</h4>
+            <p>Special festive season discounts on select models. Up to ₹7,000 off!</p>
+            <span class="offer-tag">Seasonal</span>
+          </div>
+          <div class="offer-card">
+            <div class="offer-icon"></div>
+            <h4>Corporate Benefits</h4>
+            <p>Exclusive corporate employee discounts. Present your ID to avail.</p>
+            <span class="offer-tag">Exclusive</span>
+          </div>
+          <div class="offer-card">
+            <div class="offer-icon"></div>
+            <h4>Gurudakshina Offer</h4>
+            <p>Special up to ₹5,000 discount for teachers. Our way of saying thank you!</p>
+            <span class="offer-tag">For Teachers</span>
+          </div>
+          <div class="offer-card">
+            <div class="offer-icon"></div>
+            <h4>Hero GoodLife</h4>
+            <p>Join Hero GoodLife membership for exclusive rewards, points & benefits.</p>
+            <span class="offer-tag">Membership</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SECTION 8: TESTIMONIALS ====== -->
+    <section id="testimonials" class="section testimonials-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Happy Customers</span>
+          <h2 class="section-title">What Our Customers Say</h2>
+        </div>
+        <div class="testimonials-scroll">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"Bought my Splendor+ from Bishunpur Auto Sale and Service. Excellent service and best
+              price in the area. Very happy with my purchase!"</p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">RK</div>
+              <div>
+                <strong>Ramesh Kumar</strong>
+                <span>Dewa</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"The staff is very helpful and transparent. I got my Glamour at the best EMI option.
+              Highly recommended dealership!"</p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">SY</div>
+              <div>
+                <strong>Suresh Yadav</strong>
+                <span>Bishunpur</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★☆</div>
+            <p class="review-text">"Service center is well-equipped. Got my bike serviced in just 2 hours. The AMC plan
+              is worth every rupee."</p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">PV</div>
+              <div>
+                <strong>Priya Verma</strong>
+                <span>Barabanki</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"I've been getting my HF Deluxe serviced here for 3 years. Always reliable, always on
+              time. Best dealer near Dewa!"</p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">AM</div>
+              <div>
+                <strong>Anil Mishra</strong>
+                <span>Ramnagar</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p class="review-text">"Purchased Xoom 110 scooter for my wife. The team helped with all paperwork and
+              insurance. Smooth experience!"</p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">VG</div>
+              <div>
+                <strong>Vijay Gupta</strong>
+                <span>Haidergarh</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SECTION 8.5: INSTAGRAM GALLERY ====== -->
+    <section id="gallery" class="section gallery-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Our Showroom</span>
+          <h2 class="section-title">Our Showroom Gallery</h2>
+          <p class="section-desc">Follow us on Instagram <a
+              href="https://www.instagram.com/bishunpur_auto_sales_services/" target="_blank"
+              class="insta-link">@bishunpur_auto_sales_services</a></p>
+        </div>
+        <div class="gallery-grid" id="insta-feed">
+          <!-- Auto-populated from Instagram API or static fallback -->
+          <div class="gallery-placeholder">
+            <div class="gallery-loading">
+              <span></span>
+              <p>Loading gallery from Instagram...</p>
+            </div>
+          </div>
+        </div>
+        <div class="gallery-cta">
+          <a href="https://www.instagram.com/bishunpur_auto_sales_services/" target="_blank" class="btn btn-primary">
+            Follow Us on Instagram @bishunpur_auto_sales_services
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SECTION 9: LOCATION & CONTACT ====== -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Location & Contact</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.0!2d81.1705783!3d27.0786038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3999674d1f09e5a3%3A0x7cd6498594b78827!2sBishunpur%20auto%20sale%20and%20service!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              width="100%" height="400" style="border:0; border-radius: 12px;" allowfullscreen loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" title="Bishunpur Auto Sale and Service Location">
+            </iframe>
+            <a href="https://maps.app.goo.gl/8ZHy1aCmnUE2HFXz9" target="_blank" class="map-link">Open in Google Maps
+              &rarr;</a>
+          </div>
+          <div class="contact-info-card">
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <div>
+                <strong>Address</strong>
+                <p><a href="https://maps.app.goo.gl/8ZHy1aCmnUE2HFXz9" target="_blank">Bishunpur Auto Sale and
+                    Service,<br>35HH+C2R, MDR 11C, Bishunpur,<br>Uttar Pradesh — 225305</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon"></span>
+              <div>
+                <strong>Phone</strong>
+                <p><a href="tel:+919598000909">+91 95980 00909</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon"></span>
+              <div>
+                <strong>Email</strong>
+                <p><a href="mailto:Chetanshukla2186@gmail.com">Chetanshukla2186@gmail.com</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon"></span>
+              <div>
+                <strong>Working Hours</strong>
+                <p>Mon–Sat: 9:00 AM – 7:00 PM<br>Sunday: 10:00 AM – 4:00 PM</p>
+              </div>
+            </div>
+            <a href="https://wa.me/919598000909?text=Hi%2C%20I%20want%20to%20enquire%20about%20Hero%20bikes%2Fservice%20at%20Bishunpur."
+              class="btn btn-whatsapp btn-block" target="_blank">
+              Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====== SECTION 10: FOOTER ====== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="https://www.heromotocorp.com/content/dam/hero-aem-website/brand/logo/logo.svg" alt="Hero MotoCorp"
+            class="footer-logo">
+          <p>Authorized Hero MotoCorp Dealer<br>Bishunpur Auto Sale and Service<br>35HH+C2R, MDR 11C, Bishunpur, UP</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#bikes">Bikes</a>
+          <a href="#service">Service</a>
+          <a href="#emi">Finance</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <a href="#service">Book Appointment</a>
+          <a href="#service-packages">Service Packages</a>
+          <a href="#service-packages">AMC Plans</a>
+          <a href="#emi">EMI Calculator</a>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#" class="social-icon" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/bishunpur_auto_sales_services/" class="social-icon"
+              aria-label="Instagram" target="_blank">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+              </svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Bishunpur Auto Sale and Service. All rights reserved. | Authorized Hero MotoCorp Dealer |
+          Bishunpur, Near Dewa, UP</p>
+        <p class="copyright-images">All images &copy; Bishunpur Auto Sales & Services. Unauthorized use is prohibited.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/919598000909?text=Hi%2C%20I%20want%20to%20enquire%20about%20Hero%20bikes%2Fservice%20at%20Bishunpur."
+    class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" fill="#fff">
+      <path
+        d="M16.004 0h-.008C7.174 0 0 7.176 0 16.004c0 3.5 1.129 6.742 3.047 9.379L1.054 31.25l6.076-1.953A15.906 15.906 0 0016.004 32C24.826 32 32 24.826 32 16.004S24.826 0 16.004 0zm9.31 22.602c-.387 1.09-1.922 1.996-3.137 2.262-.832.18-1.918.32-5.574-1.2-4.676-1.94-7.688-6.687-7.922-6.996-.226-.309-1.89-2.52-1.89-4.808 0-2.289 1.196-3.414 1.62-3.879.387-.422.902-.582 1.195-.582.148 0 .281.008.402.015.422.016.633.039.91.707.348.836 1.192 2.88 1.297 3.09.105.21.207.492.07.789-.129.3-.242.484-.473.742-.23.258-.45.457-.68.735-.213.25-.449.516-.192.938.258.422 1.148 1.89 2.465 3.063 1.695 1.508 3.121 1.976 3.566 2.195.344.168.754.137.997-.117.309-.32.688-.852 1.074-1.379.273-.375.621-.422.996-.258.379.16 2.398 1.133 2.809 1.34.41.207.684.308.785.48.098.172.098.996-.29 2.086z" />
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
